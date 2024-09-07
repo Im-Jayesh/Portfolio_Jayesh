@@ -11,6 +11,7 @@ user_understanding_level = 0.5  # Initial understanding level
 question_difficulty = [0.5, 0.4, 0.8]  # Difficulty of each question
 
 # Define the quiz questions and answers (this must be a list of dictionaries)
+# Dekh Bhai Adarsh yaha quiz ke jaga tume database use karna hai ok
 quiz = [
     {
         "question": "What is the capital of France?",
