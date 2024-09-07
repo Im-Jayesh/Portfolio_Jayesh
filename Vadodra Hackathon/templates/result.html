@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Quiz Results</h1>
+<p>You scored {{ score }} out of {{ total }}.</p>
+<p>Your final understanding level is {{ user_understanding_level | round(2) }}.</p>
+<a href="{{ url_for('home') }}">Try Again</a>
+{% endblock %}
